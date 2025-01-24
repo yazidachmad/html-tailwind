@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+    @apply text-xl hover:text-manggo transition duration-150 ease-in-out;
+}
+
+.image-link {
+    @apply aspect-square w-12 object-cover rounded-full;
+}
